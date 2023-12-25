@@ -13,7 +13,6 @@ public class Queue {
         printQueue(queue);
         System.out.println("peek "+queue.peek());
         queue.remove();
-        queue.poll();
         System.out.println();
         printQueue(queue);
 
