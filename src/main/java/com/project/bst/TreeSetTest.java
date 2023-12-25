@@ -1,6 +1,7 @@
 package com.project.bst;
 
 import java.util.Iterator;
+import java.util.PriorityQueue;
 import java.util.TreeSet;
 import java.util.stream.Collectors;
 
@@ -21,7 +22,7 @@ public class TreeSetTest {
             System.out.print(it.next()+" ");
 
         root.remove(22);
-        
+
         System.out.print("\nAfter remove 22 : ");
         it = root.iterator();
         while (it.hasNext())
